@@ -1,13 +1,12 @@
 package br.infnet;
 
-/**
- * Hello world!
- *
- */
+import br.infnet.controllers.UsuarioController;
+
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        UsuarioController usuarioController = new UsuarioController();
+        usuarioController.respostasRequisicoes();
     }
 }
